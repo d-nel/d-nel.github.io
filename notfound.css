@@ -1,0 +1,12 @@
+.notfound-container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.notfound-container a {
+  font-size: 30px;
+  color: #000000;
+}
