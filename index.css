@@ -5,6 +5,7 @@
   font-size: 24px;
   font-family: 'Roboto';
   cursor: default;
+  margin-top: 70px;
 }
 
 ul {
@@ -25,16 +26,9 @@ li {
 }
 
 a {
-  /*text-decoration: none;*/
   color: #000;
   cursor: pointer;
 }
-
-.hov {
-  margin-top: 60px;
-  display: inline-block;
-}
-
 
 #static {
   display: block;
@@ -52,13 +46,4 @@ a {
   -moz-border-radius: 170px / 170px;
   -webkit-border-radius: 170px / 170px;
   border-radius: 170px / 170px;
-}
-
-
-.hov:hover #dynamic {
-  display: block;
-}
-
-.hov:hover #static {
-  display: none;
 }
