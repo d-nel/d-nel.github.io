@@ -47,3 +47,32 @@ a {
   -webkit-border-radius: 170px / 170px;
   border-radius: 170px / 170px;
 }
+
+
+@media (max-width: 500px) {
+
+  .container {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .wave {
+    margin: 0;
+  }
+
+  li {
+    margin-top: 12px;
+    float: none;
+  }
+
+  /* when no longer needed */
+  /* i disappear into the mist */
+  .mist {
+    display: none;
+    margin: 0;
+  }
+}
