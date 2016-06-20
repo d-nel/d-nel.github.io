@@ -84,7 +84,9 @@ a {
   }
 
   .wave {
-    margin: 0;
+    margin-top: 10px;
+    height: 20px;
+    font-size: 36px;
   }
 
   li {
