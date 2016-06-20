@@ -1,0 +1,153 @@
+#sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 240px;
+}
+
+#main {
+  position: relative;
+  margin-left: 240px;
+}
+
+.me {
+  padding-top: 50px;
+}
+
+.name {
+  padding-top: 15px;
+  font-family: 'Yantramanav';
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.name a {
+  text-decoration: none;
+  color: #000;
+}
+
+.wave {
+  padding-top: 5px;
+  height: 28px;
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Lobster';
+}
+
+.nav-container {
+  font-family: 'Roboto';
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-list li {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.nav-list a {
+  color: #000;
+}
+
+#static {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-border-radius: 100% / 100%;
+  -webkit-border-radius: 100% / 100%;
+  border-radius: 100% / 100%;
+}
+
+#dynamic {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-border-radius: 100% / 100%;
+  -webkit-border-radius: 100% / 100%;
+  border-radius: 100% / 100%;
+}
+
+#navbutton {
+  float: right;
+}
+
+.footer {
+  display: none;
+}
+
+#navbutton {
+  display: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media (max-width: 800px) {
+  #sidebar {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: auto;
+  }
+
+  #main {
+    position: static;
+    padding-top: 90px;
+    margin-left: auto;
+  }
+
+  .me {
+    padding: 10px 15px;
+    line-height: 70px;
+  }
+
+  .me img {
+    float: left;
+    width: 70px;
+    height: 70px;
+  }
+
+  #static {
+    display: block;
+  }
+
+  #dynamic {
+    display: none;
+  }
+
+  .name {
+    padding-top: 0;
+    text-align: left;
+    float: left;
+  }
+
+  .name a {
+    margin-left: 10px;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .wave {
+    font-size: 48px!important;
+  }
+
+  .nav-list li {
+    font-size: 28px;
+  }
+
+  #navbutton {
+    display: block;
+    cursor: pointer;
+    float: right;
+    font-family: 'Yantramanav';
+  }
+}

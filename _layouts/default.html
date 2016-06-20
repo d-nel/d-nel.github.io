@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <title>{{ page.title }} - Daniel Nel</title>
+      <link rel="stylesheet" href="/style.css">
+      <script src="/brain.js"></script>
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Yantramanav' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  </head>
+
+  <body>
+
+    <div id="sidebar">
+      <div class="me">
+        <div class="meimgs">
+          <a href="/">
+            <img src="/me.png" id="static">
+            <img src="/me.gif" id="dynamic">
+          </a>
+        </div>
+        <div class="name"><a href="/">Daniel Anton Nel</a></div>
+        <div id="navbutton" class="button-border">MENU</div>
+      </div>
+
+      <!-- <div class="wave">~</div> -->
+
+      <div class="nav-container" id="nav">
+        <ul class="nav-list" id="hov">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/goals">Goals</a></li>
+          <li><a href="/contact">Contact</a></li>
+
+          <li class="wave">~</li>
+
+          <li>
+            <a href="https://instagram.com/d_a_nel">Instagram</a>
+            /
+            <a href="https://instagram.com/danielnelart">Art</a>
+          </li>
+          <li><a href="https://github.com/d-nel">Github</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="main">
+      {{ content }}
+    </div>
+  </body>
+</html>

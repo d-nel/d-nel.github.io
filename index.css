@@ -11,13 +11,21 @@ h1 {
   margin: 24px 0;
 }
 
+.name {
+  font-family: 'Yantramanav';
+  margin-bottom: 0px;
+}
+
 .desc {
   font-size: 20px;
   margin: 0;
 }
 
 .wave {
+  height: 28px;
   cursor: default;
+  font-family: 'Lobster';
+  margin-top: 5px;
 }
 
 ul {
