@@ -20,6 +20,10 @@
   padding: 0;
 }
 
+#main a {
+  color: #000;
+}
+
 .me {
   padding-top: 40px;
 }
